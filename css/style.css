@@ -123,7 +123,16 @@ main{
     gap: 40px;
     padding: 20px 60px;
     background-color: #111111;
-    color: #fff;
+    
     font-weight: 700;
     cursor: pointer;
+}
+
+footer p {
+    color:#fff;
+}
+
+footer p:hover{
+    color: #fffa;
+    transition: 2s;
 }
